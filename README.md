@@ -33,4 +33,4 @@ sudo ./git/RetroPie-Setup/retropit_setup.sh
 At this point it is on the end user to load in systems and ROM's.
 
 ## To-Do
-Automate guest add-on's.
+~~Automate guest add-on's.~~
