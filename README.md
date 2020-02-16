@@ -23,8 +23,9 @@ vagrant ssh [instanceName]
 ```
 3. Run the first time setup script:
 ```bash
-sudo ./git/RetroPie-Setup/retropit_setup.sh
+sudo su -c "/home/retro/git/RetroPie-Setup/retropit_setup.sh" -s /bin/bash retro
 ```
+> Note: it is important to run the command as the retro user so everything will be configured under that account. Since vagrant uses random passwords that are barried deep its just easier to use a second account for GUI login.
 
 ### In virtualbox
 1. Login to the vm username & password are retro
