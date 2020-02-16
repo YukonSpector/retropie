@@ -67,6 +67,7 @@
             depth: "1"
             dest: "/home/vagrant/git/RetroPie-Setup"
             repo: "https://github.com/RetroPie/RetroPie-Setup.git"
+            version: "f2884e425a13535d1899c617acbe6a3c440e6f84"
 
         - name: Set setup script as executable.
           file:

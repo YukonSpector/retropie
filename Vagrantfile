@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = BOX
   config.vm.hostname = HOSTNAME + DOMAIN
   config.vm.box_check_update = false
-  config.vbguest.auto_update = false
+  # config.vbguest.auto_update = false
   # config.vm.network "forwarded_port", guest: 80, host: 8080
   # config.vm.network "private_network", ip: PRIVATE_IP
   config.vm.provider "virtualbox" do |vb|
