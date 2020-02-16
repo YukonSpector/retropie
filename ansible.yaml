@@ -47,7 +47,7 @@
            - 'unzip'
            - 'xmlstarlet'
            - 'xfce4'
-           - 'usbutil'
+           - 'usbutils'
            state: present
 
         - name: restart vm
