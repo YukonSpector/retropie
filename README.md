@@ -23,7 +23,7 @@ vagrant ssh [instanceName]
 ```
 3. Run the first time setup script:
 ```bash
-sudo ./git/Re
+sudo ./git/RetroPie-Setup/retropit_setup.sh
 ```
 
 ### In virtualbox
