@@ -42,12 +42,13 @@
         - name: Install a list of packages
           apt:
            name:
-           - 'git'
            - 'dialog'
+           - 'git'
            - 'unzip'
-           - 'xmlstarlet'
-           - 'xfce4'
            - 'usbutils'
+           - 'xfce4'
+           - 'xfce4-terminal'
+           - 'xmlstarlet'
            state: present
 
         - name: restart vm
@@ -57,7 +58,7 @@
       block:
         - name: Creates directory
           file:
-            path: "/home/vagrant/git/RetroPie-Setup"
+            path: "/home/retro/git/RetroPie-Setup"
             state: directory
             recurse: yes
 
@@ -65,11 +66,11 @@
           git:
             clone: "yes"
             depth: "1"
-            dest: "/home/vagrant/git/RetroPie-Setup"
+            dest: "/home/retro/git/RetroPie-Setup"
             repo: "https://github.com/RetroPie/RetroPie-Setup.git"
             version: "f2884e425a13535d1899c617acbe6a3c440e6f84"
 
         - name: Set setup script as executable.
           file:
-            path: "/home/vagrant/git/RetroPie-Setup/retropie_setup.sh"
+            path: "/home/retro/git/RetroPie-Setup/retropie_setup.sh"
             mode: '777'

@@ -22,6 +22,7 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--usbehci", "on"]
     vb.customize ["modifyvm", :id, "--usbxhci", "on"]
     vb.customize ["modifyvm", :id, "--graphicscontroller", "vmsvga"]
+    vb.customize ["modifyvm", :id, "--vram", 32]
     # vb.customize ["modifyvm", :id, "--cpuexecutioncap", CPU_CAP]
     vb.gui = GUI
   end
