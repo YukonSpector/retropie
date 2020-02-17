@@ -35,3 +35,10 @@ At this point it is on the end user to load in systems and ROM's.
 
 ## To-Do
 ~~Automate guest add-on's.~~
+
+
+
+
+
+
+If you have made it this far then great. Skip this and go download RetroArch. 4 days of work with no audio vs 30min and g2g.
